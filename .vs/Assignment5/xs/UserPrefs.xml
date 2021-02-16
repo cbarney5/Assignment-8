@@ -1,0 +1,47 @@
+﻿<Properties StartupConfiguration="{556CF776-82C5-4606-8C0F-D7B859F22B45}|Default">
+  <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment5/Models/SeedData.cs">
+    <Files>
+      <File FileName="Assignment5/Views/Shared/_Layout.cshtml" Line="11" Column="32" />
+      <File FileName="Assignment5/Views/Home/Index.cshtml" />
+      <File FileName="Assignment5/appsettings.json" />
+      <File FileName="Assignment5/Startup.cs" />
+      <File FileName="Assignment5/Models/ErrorViewModel.cs" />
+      <File FileName="Assignment5/Views/_ViewStart.cshtml" />
+      <File FileName="Assignment5/Views/_ViewImports.cshtml" />
+      <File FileName="Assignment5/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Assignment5/Views/Shared/Error.cshtml" />
+      <File FileName="Assignment5/Views/Home/Privacy.cshtml" />
+      <File FileName="Assignment5/Program.cs" />
+      <File FileName="Assignment5/Models/SeedData.cs" Line="18" Column="44" />
+      <File FileName="Assignment5/Controllers/HomeController.cs" />
+      <File FileName="Assignment5/Models/Book.cs" />
+      <File FileName="Assignment5/Models/BookstoreDbContext.cs" />
+      <File FileName="Assignment5/Models/EFBookstoreRepository.cs" />
+      <File FileName="Assignment5/Models/iBookstoreRepository.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Assignment5" expanded="True">
+            <Node name="Assignment5" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="SeedData.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
