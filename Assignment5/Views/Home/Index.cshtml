@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model IQueryable<Book>
+<header>
+    <h1>Online Bookstore</h1>
+</header>
+
+@foreach (var x in Model)
+{
+<div>
+    <h4>Book Title: @x.Title</h4>
+    <p>Author First Name: @x.AuthorFirstName</p>
+    <p>Author Last Name: @x.AuthorLastName</p>
+    <p>Publisher: @x.Publisher</p>
+    <p>ISBN: @x.ISBN</p>
+    <p>Classification: @x.Classification</p>
+    <p>Category: @x.Category</p>
+    <p>Price: $@x.Price</p>
+
+</div>
+}
+<div asp-validation-summary="All"></div>
