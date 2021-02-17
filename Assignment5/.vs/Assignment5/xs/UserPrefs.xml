@@ -1,6 +1,6 @@
-﻿<Properties StartupConfiguration="{63843ADD-210D-4110-8CE6-77CDEB19A04D}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{63843ADD-210D-4110-8CE6-77CDEB19A04D}|Default">
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/HomeController.cs">
     <Files>
       <File FileName="Models/SeedData.cs" Line="18" Column="44" />
       <File FileName="Migrations/20210216232317_Initial.cs" Line="1" Column="1" />
@@ -9,20 +9,22 @@
       <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
       <File FileName="Models/Book.cs" Line="1" Column="1" />
       <File FileName="Models/iBookstoreRepository.cs" Line="1" Column="1" />
-      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="7" Column="23" />
+      <File FileName="Controllers/HomeController.cs" Line="31" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment5" expanded="True">
             <Node name="Assignment5" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
               <Node name="Migrations" expanded="True">
                 <Node name="20210216232317_Initial.cs" expanded="True" />
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>

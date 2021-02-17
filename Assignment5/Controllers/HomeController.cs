@@ -21,14 +21,11 @@ namespace Assignment5.Controllers
             _repository = repository;
         }
      
-        [HttpPost]
-        public IActionResult Index(Book book)
-        {
-            if (ModelState.IsValid)
-            {
+        
+        public IActionResult Index()
+        {           
                 return View(_repository.Books);
-            }
-            return View();
+            
         }
 
         public IActionResult Privacy()
