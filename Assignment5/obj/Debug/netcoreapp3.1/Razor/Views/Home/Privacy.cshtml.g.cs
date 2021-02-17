@@ -26,8 +26,15 @@ using Assignment5.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "/Users/coltinb/OneDrive/School/IS 413/Assignment6/Assignment5/Views/_ViewImports.cshtml"
+using Assignment5.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0aa07997cef09066f0c784721652eef4b38cfb35", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"61665519b41838e6b755733af02d48e6858089e4", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1206ecdea36fcb6ead1db6f88555177fef3dcbca", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

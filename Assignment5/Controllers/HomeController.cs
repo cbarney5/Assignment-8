@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Assignment5.Models;
+using Assignment5.Models.ViewModels;
 
 namespace Assignment5.Controllers
 {
@@ -15,16 +16,35 @@ namespace Assignment5.Controllers
 
         private iBookstoreRepository _repository;
 
+        public int PageSize = 2;
+
         public HomeController(ILogger<HomeController> logger, iBookstoreRepository repository)
         {
             _logger = logger;
             _repository = repository;
         }
      
-        //Returns view of book repository
-        public IActionResult Index()
-        {           
-                return View(_repository.Books);
+        //Link statement to dynamically update page size and number
+        public IActionResult Index(int page = 1)
+        {
+            return View(new ProjectListViewModel
+            {
+                Books = _repository.Books
+                    .OrderBy(p => p.BookId)
+                    .Skip((page - 1) * PageSize)
+                    .Take(PageSize)
+                ,
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = page,
+                    ItemsPerPage = PageSize,
+                    TotalNumItems = _repository.Books.Count()
+                }
+                    
+        });
+
+
+                
             
         }
 
