@@ -1,6 +1,6 @@
-﻿<Properties StartupConfiguration="{556CF776-82C5-4606-8C0F-D7B859F22B45}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{556CF776-82C5-4606-8C0F-D7B859F22B45}|Default">
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment5/Models/SeedData.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Assignment5/Views/Shared/_Layout.cshtml" Line="11" Column="32" />
       <File FileName="Assignment5/Views/Home/Index.cshtml" />
@@ -23,16 +23,8 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Assignment5" expanded="True">
-            <Node name="Assignment5" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="SeedData.cs" selected="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-              </Node>
-            </Node>
+          <Node name="Assignment5" expanded="True" selected="True">
+            <Node name="Assignment5" expanded="True" />
           </Node>
         </State>
       </Pad>
