@@ -1,11 +1,11 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{63843ADD-210D-4110-8CE6-77CDEB19A04D}|Default">
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Book.cs">
     <Files>
       <File FileName="Models/SeedData.cs" Line="12" Column="23" />
       <File FileName="Migrations/20210216232317_Initial.cs" Line="1" Column="1" />
       <File FileName="appsettings.json" Line="14" Column="21" />
-      <File FileName="Views/Home/Index.cshtml" Line="10" Column="20" />
+      <File FileName="Views/Home/Index.cshtml" Line="1" Column="41" />
       <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
       <File FileName="Models/Book.cs" Line="18" Column="40" />
       <File FileName="Models/iBookstoreRepository.cs" Line="5" Column="55" />
@@ -25,12 +25,13 @@
               <Node name="Migrations" expanded="True">
                 <Node name="20210216232317_Initial.cs" expanded="True" />
               </Node>
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Book.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
