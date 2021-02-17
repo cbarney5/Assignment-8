@@ -15,7 +15,8 @@ namespace Assignment5.Models
         public string AuthorLastName { get; set; }
         [Required]
         public string Publisher { get; set; }
-        [Required] [RegularExpression(^[0-9]{3}(?:-[0-9]{9})$)]
+        [Required]
+        [RegularExpression(@"^[0-9]{3}(?:-[0-9]{9})$")]
        public string ISBN { get; set; }
         [Required]
        public string Classification { get; set; }
