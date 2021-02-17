@@ -9,7 +9,7 @@ namespace Assignment5.Models
     public class SeedData
     {
        public static void EnsurePopulated (IApplicationBuilder application)
-        {
+        {   //Migrates
             BookstoreDbContext context = application.ApplicationServices.
                 CreateScope().ServiceProvider.GetRequiredService<BookstoreDbContext>();
 
@@ -21,7 +21,7 @@ namespace Assignment5.Models
             if (!context.Books.Any())
             {
                 context.Books.AddRange(
-
+                    //Seeds Data
                     new Book
                     {
                         Title = "Les Miserables",

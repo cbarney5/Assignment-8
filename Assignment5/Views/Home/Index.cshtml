@@ -1,4 +1,5 @@
-﻿@{
+﻿<!--Coltin Barney Assignment 5 2/15/2021-->
+@{
     ViewData["Title"] = "Home Page";
 }
 @model IQueryable<Book>
@@ -7,7 +8,7 @@
 </header>
 
 @foreach (var x in Model)
-{
+{//Outputs database
 <div>
     <h4>Book Title: @x.Title</h4>
     <p>Author First Name: @x.AuthorFirstName</p>

@@ -10,7 +10,7 @@ using Assignment5.Models;
 namespace Assignment5.Controllers
 {
     public class HomeController : Controller
-    {
+    {   //Sets repository and logger vars
         private readonly ILogger<HomeController> _logger;
 
         private iBookstoreRepository _repository;
@@ -21,7 +21,7 @@ namespace Assignment5.Controllers
             _repository = repository;
         }
      
-        
+        //Returns view of book repository
         public IActionResult Index()
         {           
                 return View(_repository.Books);
@@ -32,7 +32,7 @@ namespace Assignment5.Controllers
         {
             return View();
         }
-
+        //Hilton said don't worry about it
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
