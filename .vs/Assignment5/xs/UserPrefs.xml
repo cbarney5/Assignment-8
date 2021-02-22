@@ -2,13 +2,16 @@
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assignment5/Controllers/HomeController.cs" Line="27" Column="68" />
-      <File FileName="Assignment5/Views/Home/Index.cshtml" Line="26" Column="63" />
+      <File FileName="Assignment5/Controllers/HomeController.cs" Line="19" Column="32" />
+      <File FileName="Assignment5/Views/Home/Index.cshtml" Line="12" Column="62" />
       <File FileName="Assignment5/Models/ViewModels/PagingInfo.cs" Line="15" Column="6" />
-      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" Line="41" Column="1" />
-      <File FileName="Assignment5/Views/_ViewImports.cshtml" Line="3" Column="37" />
-      <File FileName="Assignment5/Models/ViewModels/ProjectListViewModel.cs" Line="10" Column="51" />
-      <File FileName="Assignment5/Startup.cs" Line="66" Column="40" />
+      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" Line="26" Column="62" />
+      <File FileName="Assignment5/Views/_ViewImports.cshtml" />
+      <File FileName="Assignment5/Models/ViewModels/ProjectListViewModel.cs" />
+      <File FileName="Assignment5/Startup.cs" Line="61" Column="23" />
+      <File FileName="Assignment5/Models/Book.cs" Line="28" Column="40" />
+      <File FileName="Assignment5/Models/SeedData.cs" Line="180" Column="26" />
+      <File FileName="Assignment5/Views/Shared/_Layout.cshtml" Line="21" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +24,11 @@
                 <Node name="ViewModels" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>

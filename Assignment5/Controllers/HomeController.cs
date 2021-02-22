@@ -16,7 +16,7 @@ namespace Assignment5.Controllers
 
         private iBookstoreRepository _repository;
 
-        public int PageSize = 2;
+        public int PageSize = 5;
 
         public HomeController(ILogger<HomeController> logger, iBookstoreRepository repository)
         {

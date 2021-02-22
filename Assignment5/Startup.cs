@@ -58,7 +58,7 @@ namespace Assignment5
             {
                 endpoints.MapControllerRoute(
                     "pagination",
-                    "Books/{page}",
+                    "P{page}",
                     new { Controller = "Home", Action = "Index" });
                 endpoints.MapDefaultControllerRoute();
             });
