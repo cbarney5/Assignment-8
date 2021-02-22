@@ -55,7 +55,7 @@ namespace Assignment5
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
-            {
+            { //This changes the url
                 endpoints.MapControllerRoute(
                     "pagination",
                     "P{page}",
