@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jJipClnvlJaUoD/CSltbANDiB3grGvgN+HIGHjTs+YQ1ygb5RJX86PDs/A02wJBLANefVFqpZUSDWWIARCnTeQ==",
+  "dgSpecHash": "J8gjqVrrTg8sYfhW4Ycs501ucJfnbsgMshlghvbmQ+A/9Zm54K9HJIr3Us31iAASka0qLm4GN+CNzynN8IoedQ==",
   "success": true,
-  "projectFilePath": "/Users/coltinb/OneDrive/School/IS 413/Assignment6/Assignment5/Assignment5.csproj",
+  "projectFilePath": "/Users/coltinb/OneDrive/School/IS 413/Assignment7/Assignment5/Assignment5.csproj",
   "expectedPackageFiles": [
     "/Users/coltinb/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/coltinb/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

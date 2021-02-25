@@ -1,33 +1,34 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{556CF776-82C5-4606-8C0F-D7B859F22B45}|Default">
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assignment5/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Assignment5/Controllers/HomeController.cs" Line="55" Column="43" />
-      <File FileName="Assignment5/Views/Home/Index.cshtml" Line="1" Column="36" />
+      <File FileName="Assignment5/Views/Home/Index.cshtml" />
       <File FileName="Assignment5/Models/ViewModels/PagingInfo.cs" Line="15" Column="6" />
-      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" Line="26" Column="62" />
+      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" />
       <File FileName="Assignment5/Views/_ViewImports.cshtml" />
       <File FileName="Assignment5/Models/ViewModels/ProjectListViewModel.cs" />
-      <File FileName="Assignment5/Startup.cs" Line="61" Column="23" />
-      <File FileName="Assignment5/Models/Book.cs" Line="28" Column="40" />
-      <File FileName="Assignment5/Models/SeedData.cs" Line="180" Column="26" />
-      <File FileName="Assignment5/Views/Shared/_Layout.cshtml" Line="14" Column="30" />
-      <File FileName="Assignment5/Models/iBookstoreRepository.cs" Line="1" Column="1" />
-      <File FileName="Assignment5/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
-      <File FileName="Assignment5/Views/Shared/Error.cshtml" Line="1" Column="1" />
-      <File FileName="Assignment5/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/Startup.cs" />
+      <File FileName="Assignment5/Models/Book.cs" />
+      <File FileName="Assignment5/Models/SeedData.cs" />
+      <File FileName="Assignment5/Views/Shared/_Layout.cshtml" />
+      <File FileName="Assignment5/Models/iBookstoreRepository.cs" />
+      <File FileName="Assignment5/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Assignment5/Views/Shared/Error.cshtml" />
+      <File FileName="Assignment5/Views/_ViewStart.cshtml" />
+      <File FileName="Assignment5/appsettings.json" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment5" expanded="True">
             <Node name="Assignment5" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
+                <Node name="ViewModels" expanded="True">
+                  <Node name="PagingInfo.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />

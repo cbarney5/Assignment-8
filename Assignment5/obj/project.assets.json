@@ -5803,14 +5803,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/coltinb/OneDrive/School/IS 413/Assignment6/Assignment5/Assignment5.csproj",
+      "projectUniqueName": "/Users/coltinb/OneDrive/School/IS 413/Assignment7/Assignment5/Assignment5.csproj",
       "projectName": "Assignment5",
-      "projectPath": "/Users/coltinb/OneDrive/School/IS 413/Assignment6/Assignment5/Assignment5.csproj",
+      "projectPath": "/Users/coltinb/OneDrive/School/IS 413/Assignment7/Assignment5/Assignment5.csproj",
       "packagesPath": "/Users/coltinb/.nuget/packages/",
-      "outputPath": "/Users/coltinb/OneDrive/School/IS 413/Assignment6/Assignment5/obj/",
+      "outputPath": "/Users/coltinb/OneDrive/School/IS 413/Assignment7/Assignment5/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/coltinb/.nuget/NuGet/NuGet.Config"
+        "/Users/coltinb/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
