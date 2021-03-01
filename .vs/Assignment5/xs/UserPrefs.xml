@@ -1,39 +1,29 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{556CF776-82C5-4606-8C0F-D7B859F22B45}|Default">
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="Assignment5/Controllers/HomeController.cs" Line="55" Column="43" />
-      <File FileName="Assignment5/Views/Home/Index.cshtml" />
-      <File FileName="Assignment5/Models/ViewModels/PagingInfo.cs" Line="15" Column="6" />
-      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" />
-      <File FileName="Assignment5/Views/_ViewImports.cshtml" />
-      <File FileName="Assignment5/Models/ViewModels/ProjectListViewModel.cs" />
-      <File FileName="Assignment5/Startup.cs" />
-      <File FileName="Assignment5/Models/Book.cs" />
-      <File FileName="Assignment5/Models/SeedData.cs" />
-      <File FileName="Assignment5/Views/Shared/_Layout.cshtml" />
-      <File FileName="Assignment5/Models/iBookstoreRepository.cs" />
-      <File FileName="Assignment5/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="Assignment5/Views/Shared/Error.cshtml" />
-      <File FileName="Assignment5/Views/_ViewStart.cshtml" />
-      <File FileName="Assignment5/appsettings.json" />
-    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment5" expanded="True">
             <Node name="Assignment5" expanded="True">
+              <Node name="Components" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True">
-                  <Node name="PagingInfo.cs" selected="True" />
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="NavigationMenu" expanded="True" />
+                  </Node>
                 </Node>
               </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
-              </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
