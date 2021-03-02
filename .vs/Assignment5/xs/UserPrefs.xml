@@ -1,29 +1,29 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{556CF776-82C5-4606-8C0F-D7B859F22B45}|Default">
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Assignment5/Models/SeedData.cs" Line="21" Column="1" />
+      <File FileName="Assignment5/Models/EFBookstoreRepository.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Models/BookstoreDbContext.cs" Line="11" Column="10" />
+      <File FileName="Assignment5/Models/ViewModels/PagingInfo.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Models/ViewModels/ProjectListViewModel.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" Line="31" Column="52" />
+      <File FileName="Assignment5/appsettings.json" Line="14" Column="21" />
+      <File FileName="Assignment5/Startup.cs" Line="31" Column="33" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment5" expanded="True">
             <Node name="Assignment5" expanded="True">
-              <Node name="Components" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Infrastructure" expanded="True" />
               <Node name="Models" expanded="True">
-                <Node name="ViewModels" expanded="True" />
+                <Node name="SeedData.cs" selected="True" />
               </Node>
-              <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
                 <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True">
-                    <Node name="NavigationMenu" expanded="True" />
-                  </Node>
+                  <Node name="Components" expanded="True" />
                 </Node>
               </Node>
-              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
