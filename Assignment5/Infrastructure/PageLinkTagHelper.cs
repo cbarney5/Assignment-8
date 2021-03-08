@@ -41,7 +41,7 @@ namespace Assignment5.Infrastructure
             for (int i = 1; i <= PageModel.TotalPages; i++)
             {   //Dynamically change pages
                 TagBuilder tag = new TagBuilder("a");
-                PageUrlValues["page"] = i;
+                PageUrlValues["pageNum"] = i;
                 tag.Attributes["href"] = urlHelper.Action(PageAction, PageUrlValues);
                 if (PageClassesEnabled)
                 {

@@ -2,26 +2,56 @@
   <MonoDevelop.Ide.ItemProperties.Assignment5 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Assignment5/Models/SeedData.cs" Line="21" Column="1" />
-      <File FileName="Assignment5/Models/EFBookstoreRepository.cs" Line="1" Column="1" />
-      <File FileName="Assignment5/Models/BookstoreDbContext.cs" Line="11" Column="10" />
+      <File FileName="Assignment5/Pages/Shopping.cshtml" Line="27" Column="142" />
+      <File FileName="Assignment5/Pages/Shared/_CartLayout.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/Pages/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/Pages/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/Infrastructure/UrlExtensions.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Components/NavigationMenuViewComponent.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Infrastructure/SessionExtensions.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Models/BookstoreDbContext.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Models/Book.cs" Line="28" Column="40" />
+      <File FileName="Assignment5/Models/Cart.cs" Line="34" Column="24" />
+      <File FileName="Assignment5/Views/Shared/ProjectSummary.cshtml" Line="16" Column="49" />
+      <File FileName="Assignment5/Pages/Shopping.cshtml.cs" Line="50" Column="1" />
+      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" Line="2" Column="1" />
+      <File FileName="Assignment5/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="Assignment5/Models/ViewModels/PagingInfo.cs" Line="1" Column="1" />
-      <File FileName="Assignment5/Models/ViewModels/ProjectListViewModel.cs" Line="1" Column="1" />
-      <File FileName="Assignment5/Infrastructure/PageLinkTagHelper.cs" Line="31" Column="52" />
-      <File FileName="Assignment5/appsettings.json" Line="14" Column="21" />
-      <File FileName="Assignment5/Startup.cs" Line="31" Column="33" />
+      <File FileName="Assignment5/Models/EFBookstoreRepository.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Models/iBookstoreRepository.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Models/SeedData.cs" Line="21" Column="1" />
+      <File FileName="Assignment5/Views/Shared/Components/NavigationMenu/Default.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/Program.cs" Line="1" Column="1" />
+      <File FileName="Assignment5/Startup.cs" Line="44" Column="1" />
+      <File FileName="Assignment5/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Assignment5/appsettings.json" Line="1" Column="1" />
+      <File FileName="Assignment5/Components/CartSummaryViewComponent.cs" Line="10" Column="32" />
+      <File FileName="Assignment5/Views/Shared/Components/CartSummary/Default.cshtml" Line="14" Column="9" />
+      <File FileName="Assignment5/Views/Shared/_Layout.cshtml" Line="9" Column="111" />
+      <File FileName="Assignment5/Models/SessionCart.cs" Line="30" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Assignment5" expanded="True">
             <Node name="Assignment5" expanded="True">
-              <Node name="Models" expanded="True">
-                <Node name="SeedData.cs" selected="True" />
+              <Node name="Components" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Shopping.cshtml" expanded="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
-                  <Node name="Components" expanded="True" />
+                  <Node name="Components" expanded="True">
+                    <Node name="CartSummary" expanded="True">
+                      <Node name="Default.cshtml" selected="True" />
+                    </Node>
+                  </Node>
                 </Node>
               </Node>
             </Node>
